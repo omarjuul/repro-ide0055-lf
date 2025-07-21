@@ -1,0 +1,12 @@
+root = true
+
+[*]
+end_of_line = lf
+
+[*.cs]
+# Expression-bodied members
+csharp_style_expression_bodied_local_functions = when_on_single_line:warning
+csharp_style_expression_bodied_methods = when_on_single_line:warning
+
+# Set severity
+dotnet_analyzer_diagnostic.category-Style.severity = warning
